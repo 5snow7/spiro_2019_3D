@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>spiro_2019_3D</title>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<script src="sketch.js"></script>
+   <script src="planet.js"></script>
+  <script src="stuff.js"></script>
+  </head>
+  <body>
+    
+  <input type="button" id="but1" value="reStart" onclick="reStart()"> 
+    <div id="div1"><input type="range" id="ran1" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran1">planet</label>
+      <input type="range" id="ran2" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran2">moon</label>
+      <input type="range" id="ran3" value="50"  min="0" max="200" step="1" onclick="length1()"><label for="ran3">asteroid</label>
+        </div>
+  <p id="par1">Weighted ratios<input type="text" id="inp1" value="2,5,3" ondblclick="weigths()">Enter 3 integers separated by commas and double click</p>
+  <p id="par2"></p>
+  <p id="par3"></p>  
+  </body>
+</html>

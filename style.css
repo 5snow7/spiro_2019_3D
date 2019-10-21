@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {border-style:double;border-width:15px;border-color:purple;
+  display: block;
+}
+
+#but1 {position:absolute;left:900px;}
+#div1 {position:absolute;left:850px;top:30px;border-style:double;
+border-color:orange;border-width:10px;padding:5px;width:200px;}
+#par1 {position:absolute;left:850px;top:130px;border-style:double;
+border-color:blue;border-width:10px;padding:5px;width:400px;}
+#par2 {position:absolute;left:850px;top:210px;border-style:double;
+border-color:gold;border-width:10px;padding:5px;width:400px;}
+#par3{position:absolute;left:850px;top:410px;border-style:double;
+border-color:violet;border-width:10px;padding:5px;width:400px;}
